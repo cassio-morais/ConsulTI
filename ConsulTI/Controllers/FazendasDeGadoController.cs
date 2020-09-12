@@ -21,7 +21,7 @@ namespace ConsulTI.Controllers
 
             httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-            var response = await httpClient.GetAsync("/Services/CategoriaOficialService.svc/ObterPorEstadoFazenda/3");
+            var response = await httpClient.GetAsync("/Services/CategoriaOficialService.svc/ObterPorEstadoFazenda/2");
 
             if (response.IsSuccessStatusCode)
             {
